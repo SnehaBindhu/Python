@@ -100,3 +100,14 @@ print(sliceOperatorList)
 
 List3 = List2 + List1
 print(List3)
+
+### Append
+
+for x in List2:
+    List1.append(x)
+print(List1)
+
+### extend()
+List1.extend(List2)
+print(List1)
+
